@@ -3,7 +3,7 @@ import React from 'react'
 import './styles.css';
 import PageHeader from '../../components/PageHeader';
 
-import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
+import TeacherItem from '../../components/TeacherItem';
 
 
 function TeacherList() {
@@ -27,6 +27,14 @@ function TeacherList() {
                 </div>
             </form>
         </PageHeader>
+
+        <main>
+           <TeacherItem />
+           <TeacherItem />
+           <TeacherItem />
+           <TeacherItem />
+           <TeacherItem />
+        </main>
 
         
        </div>
